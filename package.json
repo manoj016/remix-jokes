@@ -4,6 +4,9 @@
   "description": "",
   "license": "",
   "sideEffects": false,
+  "prisma": {
+    "seed": "node --require esbuild-register prisma/seed.ts"
+  },
   "scripts": {
     "build": "cross-env NODE_ENV=production remix build",
     "dev": "cross-env NODE_ENV=development remix dev",
@@ -23,6 +26,7 @@
     "@remix-run/dev": "^1.2.2",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
+    "esbuild-register": "^3.3.2",
     "prisma": "^3.10.0",
     "typescript": "^4.5.5"
   },
