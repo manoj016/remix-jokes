@@ -16,7 +16,7 @@ export default function NewJokeRoute() {
 				<div>
 					<button type="submit" className="button">
 						Add
-					</button> ̰
+					</button>
 				</div>
 			</form>
 		</div>
